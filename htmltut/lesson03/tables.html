@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML TABLES</title>
+</head>
+<style>
+    body{
+        font-family: sans-serif;
+        font-size: 20px;
+        background-color: #d4d4d4;
+    }
+    table{
+        border-spacing: 30px;
+    }
+    table,th,td{
+        border: 1px dotted tomato;
+        border-radius: 10px;
+
+    }
+    th, td {
+  background-color: #96D4D4;
+  padding: 15px;
+}
+    th{
+        text-align: left;
+
+    }
+    tr:nth-child(even) {
+  background-color: rgba(212, 168, 150, 0.4);
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: rgba(212, 150, 181, 0.4);
+}
+</style>
+<body>
+    <h2> HTML Tables</h2>
+    <table style="width: 100%;">
+        <!-- 1st row -->
+        <tr>
+            <!-- headers -->
+            <caption> Student information</caption>
+            <th>S/N</th>
+            <th>Name</th>
+            <th>State</th>#
+            <th>Phone Number</th>
+        </tr>
+        <!-- 2nd row -->
+        <tr>
+            <!-- data -->
+            <td>1</td>
+            <td>Precious</td>
+            <td>Sokoto</td>
+            <td>08109901441</td>
+        </tr>
+        <tr>
+            <!-- data -->
+            <td>1</td>
+            <td>Precious</td>
+            <td>Sokoto</td>
+            <td>08109901441</td>
+        </tr>
+
+
+    </table>
+    
+<table>
+    <tr>
+      <th colspan="2">Firstname</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+  </table>
+  <table>
+    <tr>
+      <th>Firstname</th>
+      <td>Jill</td>
+      <td>Eve</td>
+    </tr>
+    <tr>
+      <th>Lastname</th>
+      <td>Smith</td>
+      <td>Jackson</td>
+    </tr>
+    <tr>
+      <th>Age</th>
+      <td>94</td>
+      <td>50</td>
+    </tr>
+  </table>
+   
+<table>
+    <tr>
+      <th>Name</th>
+      <td>Jill</td>
+    </tr>
+    <tr>
+      <th rowspan="2">Phone</th>
+      <td>555-1234</td>
+    </tr>
+    <tr>
+      <td>555-8745</td>
+  </tr>
+  </table>
+       
+  
+    
+</body>
+</html>
